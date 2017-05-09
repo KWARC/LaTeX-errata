@@ -1,0 +1,23 @@
+\documentclass{article}
+\usepackage[hide]{errata}
+\title{Errata for The Book}
+\begin{document}
+\maketitle
+\section{Introduction}
+Here we have \erratumAdd{Forgotten word}{three} errata in one \erratumDelete{superfluous phrase}{darned} long \erratumReplace{translated}{Zeile}{line}.
+
+\noindent
+\begin{erratum}[date=2006-07-19,reported-by=Michael Kohlhase]{old should be new}
+This is a test of a long erratum 
+\begin{enumerate}
+  \item We can replace \eReplace{oldtext}{newtext} 
+  \item and \eAdd{new text}
+  \item and finally delete old text\eDelete{alltogether}
+  \end{enumerate}
+\end{erratum}
+
+\end{document}
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
